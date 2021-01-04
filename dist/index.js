@@ -1,16 +1,11 @@
+
+(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.WordRaindrop = factory());
 }(this, (function () { 'use strict';
 
-  /*
-   * @Author: G.TAO
-   * @Date: 2020-12-09 22:55:17
-   * @LastEditors: G.TAO
-   * @LastEditTime: 2020-12-10 20:30:09
-   * @Description: 
-   */
   class WordRaindrop {
     constructor(target, options) {
       if (target === undefined) {
@@ -19,12 +14,12 @@
 
       this.targetElement = typeof target === 'string' ? document.getElementById(target) : target;
       this.options = Object.assign({
-        text: '01',
+        text: 'qwertyuioplkjhgfdsazxcvbnm',
         fontSize: 18,
         fontFamily: 'arial',
         textColor: 'rgba(255, 255, 255, 1)',
         backgroundColor: 'rgba(0, 0, 0, 0.1)',
-        speed: 8
+        speed: 1
       }, options);
       window.requestAnimationFrame = this.requestAnimationFrame();
       this.execute();
