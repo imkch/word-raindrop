@@ -54,20 +54,20 @@ import WordRaindrop from 'word-raindrop';
       - 类型：Object || undefined
       - 说明：渲染参数
       - 示例：
-      - ```javascript
-        const options = {
-          text: '01', // 流动的字符
-          fontSize: 18, // 字体大小，单位像素
-          fontFamily: 'arial', // 字体
-          textColor: 'rgba(255, 255, 255, 1)', // 字体颜色
-          backgroundColor: 'rgba(0, 0, 0, 0.1)', // 背景颜色，必须设置透明度
-          speed: 8 // 流动速度，值为1速度最快
-        };
-        ```
+      ```javascript
+      const options = {
+        text: '01', // 流动的字符
+        fontSize: 18, // 字体大小，单位像素
+        fontFamily: 'arial', // 字体
+        textColor: 'rgba(255, 255, 255, 1)', // 字体颜色
+        backgroundColor: 'rgba(0, 0, 0, 0.1)', // 背景颜色，必须设置透明度
+        speed: 8 // 流动速度，值为1速度最快
+      };
+      ```
   - 示例：
-  - ```javascript
-    new WordRaindrop('app', options);
-    ```
+  ```javascript
+  new WordRaindrop('app', options);
+  ```
 
 ## 版本更新说明
 
