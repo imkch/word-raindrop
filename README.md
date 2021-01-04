@@ -1,7 +1,8 @@
 # word-raindrop
 
 基于Canvas实现黑客帝国文字雨特效的JavaScript库。
-![demo](data/demo.gif)
+
+![demo](/data/demo.gif)
 
 ## 安装使用
 
@@ -71,5 +72,5 @@ import WordRaindrop from 'word-raindrop';
 ## 版本更新说明
 
 - **1.0.0**
-  1. 根据画布大小绘制初始字符
-  2. 添加动画，循环绘制字符
+  - 根据画布大小绘制初始字符
+  - 添加动画，循环绘制字符
