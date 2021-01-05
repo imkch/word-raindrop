@@ -9,7 +9,7 @@
 ### 通过NPM安装，import导入
 
 ``` bash
-npm install word-raindrop
+npm install --save word-raindrop
 ```
 ``` javascript
 import WordRaindrop from 'word-raindrop';
